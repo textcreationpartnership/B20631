@@ -1,0 +1,628 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The rod of recompence, or, The hand of justice in the punishment of the enemies of church &amp; state by Gods providence and justice brought about after they had by the space of eighteen years afflicted and tormented both / written by John Conset.</title>
+            <author>Conset, John, d. 1673.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1660</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 14 KB of XML-encoded text transcribed from 9 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2014-11">2014-11 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">B20631</idno>
+            <idno type="STC">Wing C5903</idno>
+            <idno type="EEBO-CITATION">09519048</idno>
+            <idno type="OCLC">ocm 09519048</idno>
+            <idno type="VID">204442</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online text creation partnership.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. B20631)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 204442)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1328:13)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The rod of recompence, or, The hand of justice in the punishment of the enemies of church &amp; state by Gods providence and justice brought about after they had by the space of eighteen years afflicted and tormented both / written by John Conset.</title>
+                  <author>Conset, John, d. 1673.</author>
+               </titleStmt>
+               <extent>16 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by T.R. for the author,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1660.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>In verse.</note>
+                  <note>Reproduction of original in the Harvard University Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Great Britain --  History --  Restoration, 1660-1688 --  Poetry.</term>
+               <term>Great Britain --  History --  Puritan Revolution, 1642-1660.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2013-06</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2013-08</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2013-10</date>
+            <label>Mona Logarbo</label>Sampled and proofread</change>
+         <change>
+            <date>2013-10</date>
+            <label>Mona Logarbo</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2014-03</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:204442:1"/>
+            <pb facs="tcp:204442:1"/>
+            <p>THE ROD OF RECOMPENCE OR THE HAND OF JUSTICE.</p>
+            <p>In the Puniſhment of the ENEMIES of CHURCH &amp; STATE, BY Gods Providence and Juſtice brought about, after they had by the ſpace of eighteen years afflicted and tormented both.</p>
+            <p>
+               <hi>Written by</hi> JOHN CONSET, D. in <hi>Phyſick.</hi>
+            </p>
+            <q>
+               <bibl>PSALM 9.16.</bibl>
+               <p>The Lord is known to execute Judgement, and the wicked ſhall be trapped in the work of his own hands.</p>
+               <p>For the poor ſhall not alway be forgotten, the patient abiding of the meek ſhall not periſh for ever.</p>
+               <p>For when he maketh inquiſition for blood, he remembreth it, and forgetteth not the complaint of the poor.</p>
+            </q>
+            <p>
+               <hi>London,</hi> Printed by <hi>T. R.</hi> for the Author, <hi>A. D.</hi> 1660.</p>
+         </div>
+      </front>
+      <body>
+         <div type="poem">
+            <pb facs="tcp:204442:2" rendition="simple:additions"/>
+            <pb n="3" facs="tcp:204442:2"/>
+            <head>THE ROD OF RECOMPENCE OR THE HAND OF JUSTICE.</head>
+            <lg n="1">
+               <head>I</head>
+               <l>THE branch which late I reached to the juſt,</l>
+               <l>
+                  <hi>Portending Peace</hi>
+               </l>
+               <l>
+                  <hi>And much increaſe</hi>
+               </l>
+               <l>
+                  <hi>Of hap to thoſe who must</hi>
+               </l>
+               <l>Acknowledge Gods high power in Reſtauration,</l>
+               <l>Of them and theirs from this late deſolation.</l>
+               <l>Its meſſage ended, now becomes a rod</l>
+               <l>Of Recompence to thoſe, who man or God</l>
+               <pb n="4" facs="tcp:204442:3"/>
+               <l>Of late contemned, counting nothing holy</l>
+               <l>Which did not tend to th' advance of their folly.</l>
+               <l>Nor ſpar'd to ſcourge with inſolence the juſt,</l>
+               <l>And them to trample in the abject duſt.</l>
+               <l>Theſe Nimrods now by a moſt juſt ſucceſſion,</l>
+               <l>Muſt mount the ſcene to anſwer their oppreſſion.</l>
+            </lg>
+            <lg n="2">
+               <head>II.</head>
+               <l>Thus have you ſeen the Providence divine</l>
+               <l>
+                  <hi>From captive thrall</hi>
+               </l>
+               <l>
+                  <hi>Of late recall,</hi>
+               </l>
+               <l>
+                  <hi>And end their woes in fine</hi>
+               </l>
+               <l>Who did with patience kiſs their Soveraigns heſts,</l>
+               <l>Them daigning for a while (to be oppreſt)</l>
+               <l>Unto their Tyrant foes to give: But lo,</l>
+               <l>How he rewards their patience, and how</l>
+               <l>He crown'd their ſufferings with much conſolation,</l>
+               <l>And clears their innocence by this Reſtauration.</l>
+            </lg>
+            <lg n="3">
+               <head>III.</head>
+               <l>Whilſt thoſe who late their ſtern oppreſſors were,</l>
+               <l>
+                  <hi>Are captive made,</hi>
+               </l>
+               <l>
+                  <hi>And in a ſhade</hi>
+               </l>
+               <l>
+                  <hi>Of penſive dreary care</hi>
+               </l>
+               <l>Benighted, and their horrid guilt loud cries</l>
+               <l>For vengeance on their retchleſs Butcheries</l>
+               <pb n="5" facs="tcp:204442:3"/>
+               <l> And Providence reads lectures of Inſtruction</l>
+               <l>To after-Ages; in their juſt deſtruction.</l>
+            </lg>
+            <lg n="4">
+               <head>IV.</head>
+               <l>Not long it is ſince the black lines of woe,</l>
+               <l>
+                  <hi>Did much ore cloud</hi>
+               </l>
+               <l>
+                  <hi>And ſore enſhroud</hi>
+               </l>
+               <l>
+                  <hi>By this our common foe,</hi>
+               </l>
+               <l>Thoſe radiant Beams of Royal Majeſty,</l>
+               <l>Which erſt enlighten'd faithfull loyalty:</l>
+               <l>As Phaebus fills the leſſer ſtars with light,</l>
+               <l>Whoſe ſole Ecclipſe benights their glory bright.</l>
+            </lg>
+            <lg n="5">
+               <head>V.</head>
+               <l>But now the radiant beams from Gods high favour,</l>
+               <l>
+                  <hi>Th' Ecclipſe remove,</hi>
+               </l>
+               <l>
+                  <hi>And in his love</hi>
+               </l>
+               <l>
+                  <hi>He (appearing a Saviour</hi>
+               </l>
+               <l>To King and people) thoſe black lines out-raced,</l>
+               <l>Their comely viſage which had ſo defaced;</l>
+               <l>And brings on th' Scene their active cruel foe,</l>
+               <l>Which thus had drawn on them theſe lines of woe.</l>
+            </lg>
+            <lg n="6">
+               <pb n="6" facs="tcp:204442:4"/>
+               <head>VI</head>
+               <l>Not long it is ſince theſe black ſons of errour</l>
+               <l>
+                  <hi>Rebellious Frie</hi>
+               </l>
+               <l>
+                  <hi>And progeny</hi>
+               </l>
+               <l>
+                  <hi>And to juſt men a terror</hi>
+               </l>
+               <l>Mounted on their uſurped Throne did ſhine</l>
+               <l>With rayes of Pomp and Triumph; But in fine</l>
+               <l>Their luſtre proves like that which doth proceed</l>
+               <l>From thoſe falſe fires which miſts and vapors feed.</l>
+            </lg>
+            <lg n="7">
+               <head>VII.</head>
+               <l>Mean while theſe meteors daily breath out woe,</l>
+               <l>
+                  <hi>Or captive thrall</hi>
+               </l>
+               <l>
+                  <hi>To the loyal</hi>
+               </l>
+               <l>
+                  <hi>Who in their tract to go</hi>
+               </l>
+               <l>Refuſe; and therefore cruel ſervitude,</l>
+               <l>Or vaſſa lage to them they do conclude.</l>
+               <l>Nay death and Martyrdome muſt be their end,</l>
+               <l>Who to their rage will not aſſiſtance lend.</l>
+            </lg>
+            <lg n="8">
+               <pb n="7" facs="tcp:204442:4"/>
+               <head>VIII.</head>
+               <l>But now behold theſe Titans brought to thrall</l>
+               <l>
+                  <hi>By thoſe who late,</hi>
+               </l>
+               <l>
+                  <hi>Did ſatiate</hi>
+               </l>
+               <l>
+                  <hi>By their distreſs &amp; fall.</hi>
+               </l>
+               <l>The ſpleen and envy of theſe Tyrants fell,</l>
+               <l>Who now muſt change their Throne into a cell:</l>
+               <l>Their Triumphs into Dirges muſt they turn,</l>
+               <l>And thoſe who long have laught, muſt learn to mourn</l>
+               <l>From whence they came, to that they muſt return.</l>
+            </lg>
+            <lg n="9">
+               <head>IX.</head>
+               <l>Like Inſects they from corrupt matter came,</l>
+               <l>
+                  <hi>By th' heat of War</hi>
+               </l>
+               <l>
+                  <hi>And cruel jar</hi>
+               </l>
+               <l>
+                  <hi>Late brooded, to the ſame</hi>
+               </l>
+               <l>Muſt they diſſolve like thoſe <hi>Aegyptian</hi> flies,</l>
+               <l>Bred but to plague our Countrey for its vice:</l>
+               <l>But through repentance God hath them remanded,</l>
+               <l>Back to their cells again, when th' judgement's ended</l>
+            </lg>
+            <lg n="10">
+               <pb n="8" facs="tcp:204442:5" rendition="simple:additions"/>
+               <head>X.</head>
+               <l>Their threas muſt they into petitions change,</l>
+               <l>
+                  <hi>Who did rejest</hi>
+               </l>
+               <l>
+                  <hi>With dire aſpect</hi>
+               </l>
+               <l>(<hi>When others torments ſtrange</hi>
+               </l>
+               <l>Enforc'd to ſue for mercy) their Petition;</l>
+               <l>And charg'd them (Loyal) with ſome foul ſedition.</l>
+               <l>Steeling their faces with harſh lines of <hi>Terrour,</hi>
+               </l>
+               <l>Miſcalling truth with Epithites of <hi>errour;</hi>
+               </l>
+               <l>Theſe may intreat, but iu<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>tly are forlorn;</l>
+               <l>Their <hi>Terrours</hi> turn'd into contempt and ſcorn.</l>
+            </lg>
+            <lg n="11">
+               <head>XI.</head>
+               <l>Theſe are the men who truſted not in God,</l>
+               <l>
+                  <hi>But in their ſtrength</hi>
+               </l>
+               <l>
+                  <hi>And at the length</hi>
+               </l>
+               <l>
+                  <hi>Did ſway the ruling rod.</hi>
+               </l>
+               <l>And rather choſe ſins pleaſures for a ſeaſon,</l>
+               <l>Might their enjoyments be, though haughty treaſon</l>
+               <l>'Gainſt God and man the ſame <hi>conferr'd,</hi> than dure</l>
+               <l>Affliction with Gods people, who abjure</l>
+            </lg>
+            <lg n="12">
+               <pb n="9" facs="tcp:204442:5"/>
+               <head>XII.</head>
+               <l>That gain or pleaſure which with Gods beheſt</l>
+               <l>
+                  <hi>Doth not agree</hi>
+               </l>
+               <l>
+                  <hi>But when they ſee</hi>
+               </l>
+               <l>
+                  <hi>What to their ſouls ſeems beſt</hi>
+               </l>
+               <l>Do chuſe it, though clag'd with clods of affliction,</l>
+               <l>Or vail'd and ſhadow'd with clouds of dejection.</l>
+               <l>For well they know, that to their preſent grief</l>
+               <l>Joy ſhall ſucceed, and they ſhall find relief.</l>
+            </lg>
+            <lg n="13">
+               <head>XIII.</head>
+               <l>But theſe, believe not God for future good</l>
+               <l>
+                  <hi>But what they ſee,</hi>
+               </l>
+               <l>
+                  <hi>They take to be</hi>
+               </l>
+               <l>
+                  <hi>The only chiefeſt good.</hi>
+               </l>
+               <l>And wholly bend their thoughts that to attain</l>
+               <l>(Gods heſts neglecting) make their God their gain,</l>
+               <l>To which they ſacrifice their whole endeavour,</l>
+               <l>And by this homage from their Maker ſever,</l>
+               <l>Only in word they'l own Him; but in deed,</l>
+               <l>Their own devices, not his word, they'l creed.</l>
+            </lg>
+            <lg n="14">
+               <pb n="10" facs="tcp:204442:6"/>
+               <head>XIV.</head>
+               <l>They ſpar'd no ill to bring about their end,</l>
+               <l>
+                  <hi>Be't King to kill,</hi>
+               </l>
+               <l>
+                  <hi>Or other ill</hi>
+               </l>
+               <l>
+                  <hi>Whereto their actions tend</hi>
+               </l>
+               <l>They wallow in all worldly joyes, and ſtill</l>
+               <l>(As if no God there were) their Genius fill</l>
+               <l>With all delights; Gods Word they only uſ'd</l>
+               <l>As ſervant to their luſts, thus it th' abuſed.</l>
+            </lg>
+            <lg n="15">
+               <head>XV.</head>
+               <l>And ſith they ſaw no Judgement them ore take,</l>
+               <l>
+                  <hi>As if Gods word</hi>
+               </l>
+               <l>
+                  <hi>Did not afford</hi>
+               </l>
+               <l>
+                  <hi>A Rule for us to make</hi>
+               </l>
+               <l>Our Guide to holy life, they laid aſide,</l>
+               <l>And their ſucceſs they make their only guide</l>
+               <l>To prove Gods approbation, but behold</l>
+               <l>Their <hi>Mediums</hi> bad, and their concluſion cold.</l>
+            </lg>
+            <lg n="16">
+               <pb n="11" facs="tcp:204442:6"/>
+               <head>XVI.</head>
+               <l>Loe he who 'gainſt his Soveraigns life did plead,</l>
+               <l>
+                  <hi>And did attain</hi>
+               </l>
+               <l>
+                  <hi>He ſhould be ſlain,</hi>
+               </l>
+               <l>
+                  <hi>Who was our chief &amp; head.</hi>
+               </l>
+               <l>He for his own life pleads, but is deny'd,</l>
+               <l>Sith at his inſtance our dear Soveraign dy'd.</l>
+               <l>He could not happy be while <hi>Charles</hi> did live,</l>
+               <l>Nor we, except to him his meed we give:</l>
+               <l>His paſſed ſweets muſt we repay with ſowre,</l>
+               <l>His Sunſhines turn'd to Tempeſts toſſing ſhowre.</l>
+            </lg>
+            <lg n="17">
+               <head>XVII.</head>
+               <l>And he whoſe frothy Rethorick did move</l>
+               <l>
+                  <hi>By ſubtill words</hi>
+               </l>
+               <l>
+                  <hi>Which nought affords</hi>
+               </l>
+               <l>
+                  <hi>But ſhows of what they love.</hi>
+               </l>
+               <l>The ſilly ones (to ſecond his deſign)</l>
+               <l>Their Rings, their lives and all for to reſign</l>
+               <l>To his diſpoſal, lo now he wants breath,</l>
+               <l>Or words to plead, and ſave himſelf from death.</l>
+            </lg>
+            <lg n="18">
+               <pb n="12" facs="tcp:204442:7"/>
+               <head>XVIII.</head>
+               <l>Full often hath this Miſcreant abuſed</l>
+               <l>
+                  <hi>That ſacred place,</hi>
+               </l>
+               <l>
+                  <hi>Whence rayes of Grace</hi>
+               </l>
+               <l>
+                  <hi>By Gods Word are diffuſed</hi>
+               </l>
+               <l>Amongſt poor Mortals them to light into</l>
+               <l>The way of Peace, there did he chuſe to do</l>
+               <l>His Antick Pageants; making it a ſtage</l>
+               <l>Of Drollery to the profane phrantique age.</l>
+               <l>God thus permitting him uncurb'd to run</l>
+               <l>From ill to worſe, till th' height of ills he had done,</l>
+               <l>And laſt the Guardon af thoſe ills hath won.</l>
+            </lg>
+            <lg n="19">
+               <head>XIX.</head>
+               <l>And thoſe who erſt in pomp and Triumph led</l>
+               <l>
+                  <hi>Armies at Will</hi>
+               </l>
+               <l>
+                  <hi>Do now want skill</hi>
+               </l>
+               <l>
+                  <hi>To guard their tottering head.</hi>
+               </l>
+               <l>Their force is ſcatter'd, and their Armie's ſhaken,</l>
+               <l>For Gods juſt judgement hath them overtaken,</l>
+               <l>Their valours daunted, and their Crafts out-vi'd,</l>
+               <l>And their deſignes made void on every ſide.</l>
+            </lg>
+            <lg n="20">
+               <pb n="13" facs="tcp:204442:7"/>
+               <head>XX.</head>
+               <l>For he who from his Throne beholdeth all,</l>
+               <l>
+                  <hi>Which under th' Sun</hi>
+               </l>
+               <l>
+                  <hi>By man is done,</hi>
+               </l>
+               <l>
+                  <hi>Or on this stable ball</hi>
+               </l>
+               <l>Doth come to paſs, permits mans curſt invention</l>
+               <l>Sometimes to take effect, but with intention</l>
+               <l>When he his whole atchievement hath attain'd,</l>
+               <l>And th' ſumme of all his wicked hope hath gain'd,</l>
+               <l>To let him ſee his hand can quickly foil</l>
+               <l>His greateſt Fortreſs, and it give to ſpoil.</l>
+            </lg>
+            <lg n="21">
+               <head>XXI.</head>
+               <l>When therefore you oppreſſion do behold</l>
+               <l>
+                  <hi>Within a land</hi>
+               </l>
+               <l>
+                  <hi>Long time to ſtand,</hi>
+               </l>
+               <l>
+                  <hi>Let not your faith be cold.</hi>
+               </l>
+               <l>But know who heaven, and earth, and all hath made,</l>
+               <l>(Though long he ſuffer) yet by him's ore ſwaid</l>
+               <l>The powers therein contain'd; and 'its He,</l>
+               <l>Who all Oppreſſours and un<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>uſt doth ſee,</l>
+               <l>And will in time their injuries repay,</l>
+               <l>Avenge their wrongs at laſt, though long he ſtay.</l>
+            </lg>
+            <lg n="22">
+               <pb n="14" facs="tcp:204442:8"/>
+               <head>XXII.</head>
+               <l>Moſt true it is we had deſerv'd his ire</l>
+               <l>
+                  <hi>Againſt his heſt</hi>
+               </l>
+               <l>
+                  <hi>(For ever blest)</hi>
+               </l>
+               <l>
+                  <hi>By our rebellion dire,</hi>
+               </l>
+               <l>With haughty ſpirits ſpurning, and with ſcorn</l>
+               <l>Rejecting his commands; His patience worn</l>
+               <l>With our rebellious wanton <hi>carriage,</hi> turning</l>
+               <l>To wrath and fury, 'gainſt our vices burning.</l>
+            </lg>
+            <lg n="23">
+               <head>XXIII.</head>
+               <l>Therefore he gave us to the Philiſtim</l>
+               <l>
+                  <hi>To be dejected</hi>
+               </l>
+               <l>
+                  <hi>And afflicted</hi>
+               </l>
+               <l>
+                  <hi>By their tortours grim,</hi>
+               </l>
+               <l>Who ſpoil'd our houſes, and our lands did take</l>
+               <l>To their poſſeſſions, and our Church did make</l>
+               <l>A Den for foxes, or for Owles a neſt.</l>
+               <l>Our ſelves their Captives whom they rob'd of reſt,</l>
+               <l>Our women from their pleaſant places they</l>
+               <l>Caſt out, and made our joyes become their prey.</l>
+            </lg>
+            <lg n="24">
+               <pb n="15" facs="tcp:204442:8"/>
+               <head>XXIV.</head>
+               <l>Thus were we toyled with fell ſervitude,</l>
+               <l>
+                  <hi>Untill at length</hi>
+               </l>
+               <l>
+                  <hi>God ſhew'd his ſtrength,</hi>
+               </l>
+               <l>
+                  <hi>Our ſorrows to conclude.</hi>
+               </l>
+               <l>And did remove from us his ſcourging hand,</l>
+               <l>When gain'd the end of his Afflictions, and</l>
+               <l>Reclaimed us from ſinning, then he throwes</l>
+               <l>Into the fire of vengeance theſe our foes;</l>
+               <l>Whom by ſucceſs he made a Rod to us,</l>
+               <l>Now burnes the ſame, our woes concluding thus.</l>
+            </lg>
+            <lg n="25">
+               <head>XXV.</head>
+               <l>Let not therefore Gods patience you incite</l>
+               <l>
+                  <hi>With violence</hi>
+               </l>
+               <l>
+                  <hi>To innocence</hi>
+               </l>
+               <l>
+                  <hi>To offer ſhrewd deſpite.</hi>
+               </l>
+               <l>For ſure you ſhall by wofull tryal find,</l>
+               <l>He all your wrongs will treaſure up in mind,</l>
+               <l>And at the length, he vengeance on your head</l>
+               <l>Will feirce repay, either alive or dead.</l>
+            </lg>
+            <lg n="26">
+               <pb n="16" facs="tcp:204442:9"/>
+               <head>XXVI.</head>
+               <l>Now ſith, O Lord, thy juſtice doth thus ſure</l>
+               <l>
+                  <hi>Avenge all wrong</hi>
+               </l>
+               <l>
+                  <hi>Which here is done,</hi>
+               </l>
+               <l>
+                  <hi>And doth alſo procure</hi>
+               </l>
+               <l>In ſpite of ill relief to th' wronged flock,</l>
+               <l>Who flie to thee as their faiths ſureſt rock.</l>
+               <l>Let us beware how we do thee provoke,</l>
+               <l>To lay on us thy ſcourge, and fatal ſtroke.</l>
+               <l>And let's in faith and fear wait for thy favour,</l>
+               <l>That here and after thou mayſt be our Saviour.</l>
+            </lg>
+            <closer>AMEN.</closer>
+            <closer>DEO GLORIA.</closer>
+            <pb facs="tcp:204442:9"/>
+         </div>
+      </body>
+   </text>
+</TEI>
